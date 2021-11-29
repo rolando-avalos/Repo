@@ -1,0 +1,33 @@
+{
+	"name": "extension prueba",
+    "description": "Esta es una extensión de prueba para obtener movimientos bancarios",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [
+		"tabs",
+		"scripting",
+		"activeTab",
+		"background",
+		"tts",
+		"storage",
+		"unlimitedStorage"
+	],
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "/images/icon-money256.png",
+			"32": "/images/icon-money256.png",
+			"48": "/images/icon-money256.png",
+			"128": "/images/icon-money256.png"
+		}
+	},
+	"icons": {
+		"16": "/images/icon-money256.png",
+		"32": "/images/icon-money256.png",
+		"48": "/images/icon-money256.png",
+		"128": "/images/icon-money256.png"
+	}
+}

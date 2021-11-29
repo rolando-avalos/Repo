@@ -1,0 +1,137 @@
+body, * {
+  margin: 0;
+  outline: 0;
+  background-color: #000;
+  
+}
+
+.block-extension {
+  width: 500px;
+  margin: 10px;
+}
+
+
+
+.list-item {
+  font-weight: 500;
+  color: #FFF;
+  /* margin: 5px; */
+}
+
+.item {
+  margin: 5px 0;
+}
+
+select {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.mensaje{
+  width: 100%;
+  border-top: 1px solid #FFF;
+  color: red;
+  margin: 8px 0;
+  font-weight: 500;
+  text-align: center;
+  font-size: 13px;
+}
+
+.tabla {
+	margin-top: 10px;
+  color: #FFF;
+}
+
+.tabla-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabla-cabecera {
+	font-weight: 500;
+  padding: 10px 0 5px;
+  border-top: 1px solid #FFF;
+  font-size: 14px;
+}
+
+.tabla .cabecera-check {
+	display: flex;
+	align-items: center;
+}
+
+.tabla .checkbox {
+	margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.egreso {
+  color: red;
+}
+
+.tableNumber {
+  text-align: right;
+}
+
+#tablaMovimientos {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tablaMovimientos td, #tablaMovimientos th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#tablaMovimientos tr:nth-child(even){background-color: #f2f2f2;}
+
+#tablaMovimientos tr:hover {background-color: #ddd;}
+
+#tablaMovimientos th {
+  padding: 7px 5px;
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+
+
+.styled-select {
+  width: 240px;
+  height: 34px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.sidebar-box select{
+  background-color: #DA9500;
+  color: #FFF;
+  padding: 2px;
+  border: none;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  text-transform: capitalize;
+}
+
+select option {
+  text-transform:capitalize;
+  padding: 10px;
+}
+
+.btn {
+  /* background: #DA9500; */
+  background: #DF040B;
+  border: 0;
+  font-weight: 600;
+  padding: 5px;
+  color: #FFF;
+  margin-top: 5px;
+}

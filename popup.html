@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="block-extension">
+		<div class="list-item">
+			<div class="item">
+				<label for="empresa">EMPRESA</label>
+				<div class="sidebar-box">
+					<select id="empresa" name="empresa" class="select">
+						<option class="styled-select" value="-1" selected>-- SELECCIONE --</option>
+					</select>
+				</div>
+			</div>
+			<div class="item">
+				<label for="banco">BANCO</label>
+				<div class="sidebar-box">
+					<select id="banco" name="banco" class="select">
+						<option class="styled-select" value="-1" selected>-- SELECCIONE --</option>
+					</select>
+				</div>
+			</div>
+			<button class="btn" id="leerWeb" name="leerWeb">LEER</button>
+		</div>
+		<div class="mensaje">
+			<span id="mensajeError"></span>
+		</div>
+		<div class="tabla">
+			<div class="tabla-cabecera">
+				<p>Lista de movimientos</p>
+				<div class="cabecera-check">
+					<label for="checkEgresos">Subir egresos</label>
+					<input type="checkbox" id="checkEgresos" class="checkbox">
+				</div>
+			</div> 
+			<table id="tablaMovimientos">
+			</table>
+			<button class="btn" id="btnGuardarMovimientos" name="btnGuardarMovimientos">GUARDAR</button>
+		</div>
+	</div>
+</body>
+<script src="jquery.js"></script>
+<script src="popup.js"></script>
+
+</html>
